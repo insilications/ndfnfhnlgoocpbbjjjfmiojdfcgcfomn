@@ -1,0 +1,39 @@
+{
+   "action": {
+      "default_popup": "/data/popup/index.html"
+   },
+   "background": {
+      "service_worker": "worker.js"
+   },
+   "commands": {
+      "_execute_action": {
+      },
+      "_execute_sidebar_action": {
+         "description": "Open the sidebar view with a shortcut"
+      }
+   },
+   "content_security_policy": {
+      "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "homepage_url": "https://webextension.org/listing/search-all-tabs.html",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "/data/icons/128.png",
+      "16": "/data/icons/16.png",
+      "256": "/data/icons/256.png",
+      "32": "/data/icons/32.png",
+      "48": "/data/icons/48.png",
+      "512": "/data/icons/512.png",
+      "64": "/data/icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs8+8pAwzT/S752y0CzByiq0V6wI6VCpng/L/Ub5/6xqI0gz7toCrQYr88fn9qgq+A1TiY7qhzfIEN7RzNhT88SU8yqwYwiDK9Cf1kBXNgVWNWGq84+HThv/ZFjzQSWUfFzdcUmuxdicYhtEMDqd1AQ//JECy9YsebkV3ROuK891fjR8t89C9RFizj6Iga6dov3J59SJ5dqyN03f3LU/34bXk7ibJN6lJJvRfzJevixGi2m1j2tavbQJXYWL0bU0w1Nwo5KF6lpQt06KRKTm6+poKsxvtWLVvnp4b3qX2vrMFHTQq930Kqn/Y5yJUT3p1s7LFFXFxt5+7H66mFyrIkwIDAQAB",
+   "manifest_version": 3,
+   "name": "Search all Tabs",
+   "offline_enabled": true,
+   "optional_permissions": [ "tabs" ],
+   "permissions": [ "storage", "contextMenus", "scripting", "favicon", "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.5.1"
+}
