@@ -528,7 +528,7 @@ document.addEventListener('click', e => {
         windowId: Number(windowId),
         frameId,
         snippet
-      }, () => window.close());
+      });
       e.preventDefault();
     }
     else if (cmd === 'faqs') {
